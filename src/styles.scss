@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$placeholder-color: #9b9fa7;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  @apply m-0;
+  @apply p-0;
+  @apply font-primary;
+  @apply font-normal;
+}
+
+
+input,
+select,
+textarea,
+button {
+  @apply font-primary;
+  @apply font-normal;
+  @apply backdrop-opacity-100;
+}
+
+ul,
+ol {
+  @apply m-0;
+  @apply p-0;
+  @apply list-none;
+}
+
+img,
+svg {
+  display: inline-block !important;
+}

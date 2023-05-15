@@ -10,7 +10,7 @@ import {PublicModule} from "./features/public/public.module";
   ],
   imports: [
     BrowserModule,
-    PublicModule
+    PublicModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

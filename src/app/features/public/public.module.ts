@@ -28,7 +28,8 @@ import { HomeComponent } from './components/Home/home.component';
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ]
 })
 export class PublicModule { }

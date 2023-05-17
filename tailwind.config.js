@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   prefix: '',
@@ -12,7 +14,9 @@ module.exports = {
 
     },
     fontFamily: {
-      primary: ["'Comfortaa', cursive"]
+      primary: ["'DM Sans', sans-serif"], // 'DM Sans', sans-serif;
+      sans: ['DM Sans', ...defaultTheme.fontFamily.sans],
+      display: ['Lexend', ...defaultTheme.fontFamily.sans],
     },
     colors: ({ colors }) => ({
       transparent: 'transparent',

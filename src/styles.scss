@@ -43,3 +43,7 @@ img,
 svg {
   display: inline-block !important;
 }
+
+.text-style {
+  text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}

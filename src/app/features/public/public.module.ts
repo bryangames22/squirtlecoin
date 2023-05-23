@@ -9,6 +9,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { RoadmapComponent } from './components/roadmap/roadmap.component';
 import { TokenomicsComponent } from './components/tokenomics/tokenomics.component';
 import { HomeComponent } from './components/Home/home.component';
+import { HowBuyComponent } from './components/how-buy/how-buy.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HomeComponent } from './components/Home/home.component';
     ContactComponent,
     RoadmapComponent,
     TokenomicsComponent,
-    HomeComponent
+    HomeComponent,
+    HowBuyComponent
   ],
   imports: [
     CommonModule,
@@ -31,6 +33,10 @@ import { HomeComponent } from './components/Home/home.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
+    ContactComponent,
+    HowBuyComponent,
+    TokenomicsComponent,
+    RoadmapComponent,
   ],
 })
 export class PublicModule { }

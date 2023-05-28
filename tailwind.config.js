@@ -9,7 +9,9 @@ module.exports = {
   },
   theme: {
     extend: {
-
+      backgroundImage: {
+        'home-background': "url('./assets/background-home40opacity.png')"
+      }
     },
     fontFamily: {
       primary: ["'DM Sans', sans-serif"], // 'DM Sans', sans-serif;

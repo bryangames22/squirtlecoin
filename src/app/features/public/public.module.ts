@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {ContainerComponent} from './container/container.component';
 
 import { PublicRoutingModule } from './public-routing.module';
 import { HeaderComponent } from './components/header/header.component';
@@ -21,7 +22,8 @@ import { HowBuyComponent } from './components/how-buy/how-buy.component';
     RoadmapComponent,
     TokenomicsComponent,
     HomeComponent,
-    HowBuyComponent
+    HowBuyComponent,
+    ContainerComponent
   ],
   imports: [
     CommonModule,
@@ -37,6 +39,7 @@ import { HowBuyComponent } from './components/how-buy/how-buy.component';
     HowBuyComponent,
     TokenomicsComponent,
     RoadmapComponent,
+    ContainerComponent
   ],
 })
 export class PublicModule { }

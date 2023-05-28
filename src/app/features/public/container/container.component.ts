@@ -7,6 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <!-- Header -->
       <sqr-header></sqr-header>
       <main>
+        <router-outlet></router-outlet>
         <!-- Home section -->
         <sqr-home></sqr-home>
 

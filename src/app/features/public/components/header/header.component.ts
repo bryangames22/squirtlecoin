@@ -11,12 +11,10 @@ export class HeaderComponent {
   public $openMenu: Observable<boolean> = this.openMenu.asObservable();
 
   onOpenMainMenu(): void {
-    console.warn('onOpenMainMenu');
     this.openMenu.next(true);
   }
 
   onCloseMainMenu(): void {
-    console.warn('onCloseMainMenu');
     this.openMenu.next(false);
   }
 }

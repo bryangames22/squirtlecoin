@@ -1,0 +1,6 @@
+.main-menu {
+  display: none;
+  &.mobile {
+    display: block;
+  }
+}

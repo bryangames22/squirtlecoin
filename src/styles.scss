@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&display=swap');
 
 
 @tailwind base;
@@ -15,11 +15,12 @@ body {
 }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   @apply m-0;
   @apply p-0;
   @apply font-primary;
   @apply font-normal;
+  cursor: url(http://falconmasters.com/img/cursor.gif), auto;
 }
 
 
@@ -42,4 +43,8 @@ ol {
 img,
 svg {
   display: inline-block !important;
+}
+
+.text-style {
+  text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
 }

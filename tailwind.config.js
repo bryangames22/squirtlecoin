@@ -9,10 +9,12 @@ module.exports = {
   },
   theme: {
     extend: {
-
+      backgroundImage: {
+        'home-background': "url('./assets/background-home40opacity.png')"
+      }
     },
     fontFamily: {
-      primary: ["'Comfortaa', cursive"]
+      primary: ["'DM Sans', sans-serif"], // 'DM Sans', sans-serif;
     },
     colors: ({ colors }) => ({
       transparent: 'transparent',
